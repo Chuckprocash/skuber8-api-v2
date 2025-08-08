@@ -31,7 +31,7 @@ class User extends Authenticatable
      * @var list<string>
      */
     protected $hidden = [
-        'login_code',
+        // 'login_code',
         'remember_token',
     ];
 
